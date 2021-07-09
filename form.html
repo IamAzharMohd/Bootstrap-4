@@ -6,9 +6,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/bootstrap.min.css">
     <title>Form</title>
+    <style>
+        .form {
+            width: 25rem;
+
+        }
+    </style>
 </head>
 <body>
-    <h1>Bootstrap 4</h1>
+    <div class="container text-center p-5">
+        <h1>Bootstrap 4</h1>
+    </div>
+    <div class="form container min-vh-60 my-auto p-5 bg-light shadow rounded">
+        <form action="" >
+            <h3>Create your profile</h3>
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" name="name" class="form-control">
+            </div>
+            <div class="form-group">
+                <label for="age">Age</label>
+                <input type="text" name="age" class="form-control">
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" name="email" class="form-control">
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+    
+    
 <script src="/css/bootstrap.bundle.min.js"></script>
 </body>
 </html>
